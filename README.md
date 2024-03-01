@@ -31,6 +31,12 @@ The used data have been measured by xxx.
 
 This work is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html)
 
+## Further reading
+* [pygimli][pyGIMLi website] with API reference and lots of tutorials and examples
+* [transform2021][pyGIMLi tutorial] given on Transform 2021 (with 2h Youtube tutorial)
+* [transform2022][pyGIMLi tutorial] given on Transform 2022 (with 2h Youtube tutorial)
+* Jupyter [notebook][Notebook collection] using pyGIMLi
+
 ## References
 * Rücker, C., Günther, T., Wagner, F.M. (2017): pyGIMLi: An open-source library for modelling and inversion in geophysics, Computers & Geosciences 109, 106-123, [doi:10.1016/j.cageo.2017.07.011](https://doi.org/10.1016/j.cageo.2017.07.011).
 * Wunderlich, T., Fischer, P., Wilken, D., Hadler, H., Erkul, E., Mecking, R., Günther, T., Heinzelmann, M., Vött, A. & Rabbel, W. (2018): Constraining Electric Resistivity Tomography by Direct Push Electric Conductivity logs and vibracores: An exemplary study of the Fiume Morto silted riverbed (Ostia Antica, Western Italy). Geophysics 83(3), B87-B103, doi:10.1190/geo2016-0660.1.
