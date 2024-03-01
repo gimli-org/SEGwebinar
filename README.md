@@ -19,5 +19,6 @@ and
 
 
 
-
-Material for SEG webinar on February 19/20, 2024
+[florian]: https://www.gim.rwth-aachen.de/
+[halbmy]: https://www.liag-hannover.de/
+[carsten]: https://www.tu.berlin/geophysik
