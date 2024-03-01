@@ -2,7 +2,7 @@
 ## A tutorial for the SEG Near Surface Webinar series
 
 **Instructors:**
-[Florian Wagner][florian]<sup>1</sup>
+[Florian Wagner][florian]<sup>1</sup>,
 [Thomas Günther][halbmy]<sup>2</sup>
 and
 [Carsten Rücker][carsten]<sup>3</sup>
@@ -20,7 +20,7 @@ and
 
 In this webinar, we introduce you to pyGIMLi, an open-source software for Geophysical
 Inversion and Modelling. After giving some general information on pyGIMLi, we will
-demonstrate its potential by inverting field ERT data through adding increasing 
+demonstrate its potential by inverting field ERT data through adding increasing
 complexity.
 
 ## Acknowledgement
@@ -32,10 +32,10 @@ The used data have been measured by xxx.
 This work is licensed under the [Apache 2.0 License](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ## Further reading
-* [pygimli][pyGIMLi website] with API reference and lots of tutorials and examples
-* [transform2021][pyGIMLi tutorial] given on Transform 2021 (with 2h Youtube tutorial)
-* [transform2022][pyGIMLi tutorial] given on Transform 2022 (with 2h Youtube tutorial)
-* Jupyter [notebook][Notebook collection] using pyGIMLi
+* [pyGIMLi website][pygimli] with API reference and lots of tutorials and examples
+* [pyGIMLi tutorial][transform2021] given on Transform 2021 (with 2h Youtube tutorial)
+* [pyGIMLi tutorial][transform2022] given on Transform 2022 (with 2h Youtube tutorial)
+* Jupyter [Notebook collection][notebooks] using pyGIMLi
 
 ## References
 * Rücker, C., Günther, T., Wagner, F.M. (2017): pyGIMLi: An open-source library for modelling and inversion in geophysics, Computers & Geosciences 109, 106-123, [doi:10.1016/j.cageo.2017.07.011](https://doi.org/10.1016/j.cageo.2017.07.011).
