@@ -36,7 +36,15 @@ We recommend installing a Python distribution like [miniforge][miniforge] or [An
 Follow the installation instructions on https://www.pygimli.org/installation.html
 
 ```
-conda create -n pg -c gimli -c conda-forge pygimli=1.4.6
+conda create -n pg -c gimli -c conda-forge pygimli=1.4.6 jupyter
+conda activate pg
+jupyter notebook
+```
+
+or download the file 
+
+```
+mamba env create --file
 ```
 
 ### Google colab
