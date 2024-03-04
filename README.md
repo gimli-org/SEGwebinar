@@ -1,4 +1,4 @@
-# pyGIMLi - An open source software for Research and Teaching
+# pyGIMLi - Open-source Research & Teaching Software
 ## A tutorial for the SEG Near Surface Webinar series
 
 **Instructors:**
@@ -22,6 +22,29 @@ In this webinar, we introduce you to pyGIMLi, an open-source software for Geophy
 Inversion and Modelling. After giving some general information on pyGIMLi, we will
 demonstrate its potential by inverting field ERT data through adding increasing
 complexity.
+
+## Installation
+
+We recommend installing a Python distribution locally.
+In case of installation problems, one can alternatively use Google Colab.
+
+### Local Python installation using conda
+
+We recommend installing a Python distribution like [miniforge][miniforge] or [Anaconda][anaconda].
+- Install miniforge: https://github.com/conda-forge/miniforge#install
+
+Follow the installation instructions on https://www.pygimli.org/installation.html
+
+```
+conda create -n pg -c gimli -c conda-forge pygimli=1.4.6
+```
+
+### Google colab
+
+1. Login to [colab][colab] using your Google account.
+2. Open new Notebook and choose the GitHub option
+3. Paste the [webinar] URL https://github.com/gimli-org/SEGwebinar
+4. Select the template notebook or any ready one
 
 ## Acknowledgement
 
@@ -53,6 +76,7 @@ This work is licensed under the [Apache 2.0 License](https://www.apache.org/lice
 [carsten]: https://www.tu.berlin/geophysik/
 [pygimli]: https://www.pygimli.org
 [gimli]: https://github.com/gimli-org/gimli
+[webinar]: https://github.com/gimli-org/SEGwebinar
 [notebooks]: https://github.com/gimli-org/notebooks
 [transform2021]: https://github.com/gimli-org/transform2021
 [transform2022]: https://github.com/gimli-org/transform2022
