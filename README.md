@@ -32,19 +32,24 @@ In case of installation problems, one can alternatively use Google Colab.
 
 We recommend installing a Python distribution like [miniforge][miniforge] or [Anaconda][anaconda].
 - Install miniforge: https://github.com/conda-forge/miniforge#install
-
-Follow the installation instructions on https://www.pygimli.org/installation.html
+- follow the installation instructions on https://www.pygimli.org/installation.html
+- open a terminal (on Windows Powershell prompt)
 
 ```
 conda create -n pg -c gimli -c conda-forge pygimli=1.4.6 jupyter
+```
+
+or download the file https://github.com/gimli-org/SEGwebinar/environment.yml
+
+```
+mamba env create --file environment.yml
+```
+
+Activate the environment and call Jupyter Notebook:
+
+```
 conda activate pg
 jupyter notebook
-```
-
-or download the file 
-
-```
-mamba env create --file
 ```
 
 ### Google colab
