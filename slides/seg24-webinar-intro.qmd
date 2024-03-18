@@ -1,0 +1,138 @@
+---
+title: "py**GIMLi**"
+subtitle: Geophysical modeling and inversion beyond the standard
+format:
+  letterbox-revealjs:
+    theme: [default, _extensions/grantmcdermott/clean/clean.scss]
+    self-contained: true
+    slide-number: true
+    logo: images/gimli_logo.png
+    footer: <https://seg24.pygimli.org>
+    #header-logo: images/gimli_logo.png
+    background-image: images/bg_light.png
+    menu: false
+    highlight-style: solarized
+author:
+  - name: Carsten Rücker
+    orcid: 0000-0002-8231-9861
+    email: carsten@pygimli.org
+    affiliations: TU Berlin, Germany
+  - name: Thomas Günther
+    orcid: 0000-0001-5409-0273
+    email: thomas@pygimli.org
+    affiliations: LIAG, Hannover, Germany
+  - name: Florian Wagner
+    orcid: 0000-0001-7407-9741
+    email: florian@pygimli.org
+    affiliations: RWTH Aachen University, Germany
+date: 2024-03-19
+bibliography: refs.bib
+---
+
+## {{< fa toolbox >}} py**GIMLi** is a versatile open-source toolbox with:
+::: {.columns}
+::: {.column width="65%"}
+- management tools for **structured and unstructured meshes** in 2D & 3D
+- computationally efficient **finite-element and finite-volume solvers**
+- **various geophysical forward operators**: ERT/IP, Traveltime, Gravimetry, Magnetics, SP
+- Gauss-Newton based frameworks for **constrained, joint and
+process-based inversions** with **region-specific regularization**
+- **open-source, platform compatible**, documented & tested code
+- suitability for **teaching & reproducible research**
+- 1.0 version published in 2017 in *Computers and Geosciences* [@Ruecker2017] [(and among the *Most Downloaded* papers since, > 330 citations, > 100 uses in peer-reviewed papers)]{.muted}
+:::
+::: {.column width="30%"}
+::: {.r-stack}
+![](images/seismics.png)
+![](images/3d_darcy.png)
+![](images/global.png){width="85%"}
+:::
+:::
+:::
+
+# pyGIMLi aims to make:
+- the easy things easy
+- the hard things possible
+- everything transparent and reproducible
+
+## {{< fa backward >}} Previous tutorials
+
+::: {.columns}
+::: {.column}
+- [Transform 2021](http://transform21.pygimli.org) has discussed creating geometries & meshes, the modeling level and synthetic data creation as well as inversion (with external forward operators).
+- [Transform 2022](http://transform22.pygimli.org) has discussed fundamental `pyGIMLi` objects (`Mesh`, `DataContainer`, matrix types, etc.), geostatistical vs. smoothness-constrained regularization and individual treatment of subsurface regions.
+- **Today** we will show you how to invert a **real-life 3D data** set [@Huebner2017] with many ways to tweak your **inversion beyond the standard practice**.
+:::
+::: {.column}
+![](images/youtube.jpg)
+:::
+:::
+
+## {{< fa gift >}} What is new since?
+* All Transform '21 & '22 notebooks available as tutorials or examples on [pygimli.org](www.pygimli.org)
+* **Improved 3D visualization** powered by [pyvista](www.pyvista.org) (including filters, slices and interactive notebook compatibility)
+* **3D gravity and (full-tensor) magnetics** operators and managers
+* **New matrices and matrix generators**, e.g. non-explicit (PDE-based) Jacobian matrix
+* **LSQR-inversion framework** allowing parameter constraints [from @Wagner2019]
+* **Multi-frame modelling framework** for temporally/spectrally/spatially constrained inversion
+* `TimelapseERT` class
+* **Many new examples** on ERT (2D/3D crosshole, 3D surface, timelapse) & IP, 3D magnetics
+* **Improved website**, i.e. fully upgraded to modern (pg>1.2) style and moved to the [*pydata-sphinx-theme*](https://pydata-sphinx-theme.readthedocs.io/en/stable/)
+* Many **more convenience functions**
+* Many **new papers using pyGIMLi** (<https://www.pygimli.org/publist.html>)
+
+
+## {{< fa people-group >}} Join the pyGIMLi user community!
+
+::: {.columns}
+::: {.column width="60%"}
+![](images/laptops.JPG)
+
+> "In open source, we feel strongly that to really **do something well**, you have to get a lot of people involved."
+>
+> *– Linus Torvalds*
+:::
+
+::: {.column width="40%"}
+1. **Join the `#pyGIMLi` chat** on [Mattermost](https://softwareunderground.org/mattermost)!
+2. **Open a discussion** or an issue [on {{< fa brands github >}} GitHub](https://github.com/gimli-org/gimli).
+3. **Contribute to the website** via the "Improve this page" button in the right sidebar.
+4. **Add your** pyGIMLi-powered **publication** to [this file](https://github.com/gimli-org/gimli/blob/dev/doc/gimliuses.bib).
+5. **Send your example** to [mail@pygimli.org](mailto:mail@pygimli.org).
+6. **Contribute to the code** as described in [our contribution guidelines.](www.pygimli.org/contrib.html)
+:::
+:::
+
+## {{< fa rocket >}} How to get started
+
+1. Open the [Anaconda Prompt](https://docs.anaconda.com/free/anaconda/install/) ({{< fa brands windows >}}) or a Terminal ({{< fa brands apple >}}/{{< fa brands linux >}}).
+2. Clone the [`SEGwebinar`](https://seg24.pygimli.org) repository.
+
+``` bash
+git clone https://github.com/gimli-org/SEGwebinar.git
+cd SEGwebinar
+```
+3. Install the `pg` environment with required dependencies (in particular `pygimli=1.5.0`).
+
+``` bash
+conda env create
+````
+
+4. Activate the environment and start a [Jupyter Notebook](https://jupyter.org).
+
+``` bash
+conda activate pg
+jupyter notebook
+```
+
+::: {.callout-tip}
+## Follow without a local installation
+You can also visit <https://colab.research.google.com>, open an empty notebook and type `!pip install pygimli`.
+:::
+
+## {{< fa forward >}} Let's go!
+
+![*Source:* @Huebner2017](images/survey.png){width="57%"}
+
+::: {#refs}
+:::
