@@ -135,5 +135,3 @@ You can also visit <https://colab.research.google.com>, open an empty notebook a
 
 ::: {#refs}
 :::
-
-![](images/background.png)
