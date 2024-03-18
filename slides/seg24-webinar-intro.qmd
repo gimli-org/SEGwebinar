@@ -8,7 +8,7 @@ format:
     slide-number: true
     logo: images/gimli_logo.png
     footer: <https://seg24.pygimli.org>
-    background-image: images/background.png
+    background-image: https://www.pygimli.org/_static/bg_light.png
     menu: false
     highlight-style: solarized
 author:
