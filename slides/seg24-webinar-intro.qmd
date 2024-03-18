@@ -68,8 +68,8 @@ process-based inversions** with **region-specific regularization**
 :::
 
 ## {{< fa gift >}} What is new since?
-* All Transform '21 & '22 notebooks available as tutorials or examples on [pygimli.org](www.pygimli.org)
-* **Improved 3D visualization** powered by [pyvista](www.pyvista.org) (including filters, slices and interactive notebook compatibility)
+* All Transform '21 & '22 notebooks available as tutorials or examples on [pygimli.org](https://pygimli.org)
+* **Improved 3D visualization** powered by [pyvista](https://pyvista.org) (including filters, slices and interactive notebook compatibility)
 * **3D gravity and (full-tensor) magnetics** operators and managers
 * **New matrices and matrix generators**, e.g. non-explicit (PDE-based) Jacobian matrix
 * **LSQR-inversion framework** allowing parameter constraints [from @Wagner2019]
@@ -78,7 +78,7 @@ process-based inversions** with **region-specific regularization**
 * **Many new examples** on ERT (2D/3D crosshole, 3D surface, timelapse) & IP, 3D magnetics
 * **Improved website**, i.e. fully upgraded to modern (pg>1.2) style and moved to the [*pydata-sphinx-theme*](https://pydata-sphinx-theme.readthedocs.io/en/stable/)
 * Many **more convenience functions**
-* Many **new papers using pyGIMLi** (<https://www.pygimli.org/publist.html>)
+* Many **new papers using pyGIMLi** (<https://pygimli.org/publist.html>)
 
 
 ## {{< fa people-group >}} Join the pyGIMLi user community!
@@ -98,7 +98,7 @@ process-based inversions** with **region-specific regularization**
 3. **Contribute to the website** via the "Improve this page" button in the right sidebar.
 4. **Add your** pyGIMLi-powered **publication** to [this file](https://github.com/gimli-org/gimli/blob/dev/doc/gimliuses.bib).
 5. **Send your example** to [mail@pygimli.org](mailto:mail@pygimli.org).
-6. **Contribute to the code** as described in [our contribution guidelines.](www.pygimli.org/contrib.html)
+6. **Contribute to the code** as described in [our contribution guidelines.](https://pygimli.org/contrib.html)
 :::
 :::
 
