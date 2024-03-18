@@ -1,6 +1,6 @@
 ---
 title: "py**GIMLi**"
-subtitle: Geophysical modeling and inversion beyond the standard
+subtitle: Geophysical modeling and inversion beyond the standard (test)
 format:
   letterbox-revealjs:
     theme: [default, _extensions/grantmcdermott/clean/clean.scss]
