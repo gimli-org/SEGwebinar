@@ -1,6 +1,6 @@
 ---
-title: "py**GIMLi**"
-subtitle: An open-source for Geophysical Modeling and Inversion in research and teaching
+title: "![](images/gimli_logo.png){width='50%'}"
+subtitle: Geophysical inversion and modeling beyond the standard
 format:
   letterbox-revealjs:
     theme: [default, _extensions/grantmcdermott/clean/clean.scss]
@@ -51,14 +51,9 @@ process-based inversions** with **region-specific regularization**
 :::
 
 # pyGIMLi aims to make:
-- simple things easy
+- easy things easy
 - hard things possible
-- workflows transparent and reproducible
-- your choice of everydays tools
-- people building their own projects upon
-  - pyBERT, REDA, COMET, custEM, SAEM, PyRefract
-
-It is rather a toolbox with lots of toolsl to combine than a ready-purpose code
+- everything transparent and reproducible
 
 ## {{< fa backward >}} Existing tutorials
 
@@ -69,7 +64,7 @@ It is rather a toolbox with lots of toolsl to combine than a ready-purpose code
 - **Today** we will show you how to invert a **real-life 3D data** set [@Huebner2017] with many ways to tweak your **inversion beyond the standard practice**.
 :::
 ::: {.column}
-![](images/youtube.jpg)
+![](images/youtube.jpg){width=90%}
 :::
 :::
 
@@ -80,8 +75,8 @@ It is rather a toolbox with lots of toolsl to combine than a ready-purpose code
 - **Improved 3D visualization** powered by [pyvista](https://pyvista.org) (including filters, slices and interactive notebook compatibility)
 - **3D gravity and (full-tensor) magnetics** operators and managers
 - **New matrices and matrix generators**, e.g. non-explicit (PDE-based) Jacobian matrix
-- **LSQR inversion framework** allowing parameter constraints [from @Wagner2019]
-- **Multi-frame modelling framework** `MultiFrameModelling` for temporally/spectrally/spatially constrained inversion
+- `LSQRinversion` framework enabling parameter constraints [from @Wagner2019]
+- `MultiFrameModelling` framework for temporally/spectrally/spatially constrained inversion
 - `TimelapseERT` class with different strategies, e.g. **4D inversion**
 - **New examples** on ERT (2D/3D crosshole, 3D surface, timelapse), IP, 3D magnetics
 - **Improved website**, i.e. fully upgraded to modern (pg>1.2) style and moved to the [*pydata-sphinx-theme*](https://pydata-sphinx-theme.readthedocs.io/en/stable/)
@@ -103,7 +98,7 @@ It is rather a toolbox with lots of toolsl to combine than a ready-purpose code
 
 ::: {.column width="40%" .incremental}
 1. **Join the `#pyGIMLi` chat** on [Mattermost](https://softwareunderground.org/mattermost)!
-2. **Open a discussion** or **raise an issue""" [on {{< fa brands github >}} GitHub](https://github.com/gimli-org/gimli).
+2. **Open a discussion** or **raise an issue** [on {{< fa brands github >}} GitHub](https://github.com/gimli-org/gimli).
 3. **Contribute to the website** via the "Improve this page" button in the right sidebar.
 4. **Add your** pyGIMLi-powered **publication** to [this database](https://github.com/gimli-org/gimli/blob/dev/doc/gimliuses.bib).
 5. **Send your example** to [mail@pygimli.org](mailto:mail@pygimli.org).
@@ -142,18 +137,12 @@ You can also visit <https://colab.research.google.com>, open an empty notebook a
 ::: {.columns}
 ::: {.column width="50%" style="font-size: 140%;" .incremental}
 
-1. A single story with a timelapse ERT data
-
-2. load, process and visualize data
-
-3. work on different meshes
-
-4. use different regularization approaches
-
-5. add prior information and petrophysics
-
+1. A single story with timelapse ERT data
+2. Load, process and visualize data
+3. Work on different meshes
+4. Use different regularization approaches
+5. Add prior information and petrophysics
 6. Visualize results in 2D and 3D
-
 :::
 ::: {.column width="50%"}
 ![*Source:* @Huebner2017](images/survey.png){width="100%"}
