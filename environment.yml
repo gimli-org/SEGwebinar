@@ -4,13 +4,10 @@ channels:
   - defaults
   - gimli
 dependencies:
-  - pgcore >= 1.5.0
-  - matplotlib
+  - pygimli >= 1.5.0
   - jupyter
   - pytest
-  - numpy
-  - scipy<1.12
   - pyvista[all,trame]>=0.42
   - meshio
-  - tetgen
   - scooby
+  - tdqm
