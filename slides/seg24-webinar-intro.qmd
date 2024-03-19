@@ -75,7 +75,7 @@ process-based inversions** with **region-specific regularization**
 - **Improved 3D visualization** powered by [pyvista](https://pyvista.org) (including filters, slices and interactive notebook compatibility)
 - **3D gravity and (full-tensor) magnetics** operators and managers
 - **New matrices and matrix generators**, e.g. non-explicit (PDE-based) Jacobian matrix
-- `LSQRinversion` framework enabling parameter constraints [from @Wagner2019]
+- `LSQRinversion` framework enabling additional parameter relations [from @Wagner2019]
 - `MultiFrameModelling` framework for temporally/spectrally/spatially constrained inversion
 - `TimelapseERT` class with different strategies, e.g. **4D inversion**
 - **New examples** on ERT (2D/3D crosshole, 3D surface, timelapse), IP, 3D magnetics
