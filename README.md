@@ -23,6 +23,11 @@ Inversion and Modelling. After giving some general information on pyGIMLi, we wi
 demonstrate its potential by inverting field ERT data through adding increasing
 complexity.
 
+##
+Date: March 19, 2023
+
+Recorded video: https://youtu.be/qbLGbSEWOSw
+
 ## Installation
 
 We recommend installing a Python distribution locally.
